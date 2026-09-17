@@ -1,0 +1,5 @@
+pipeline A (HGB)
+params: {'max_iter': 600, 'learning_rate': 0.05, 'max_leaf_nodes': 31, 'min_samples_leaf': 40, 'l2_regularization': 1.0, 'max_bins': 255, 'early_stopping': False, 'random_state': 42}
+fold AUCs: [0.82241, 0.81996, 0.82973, 0.81661, 0.81875]
+OOF AUC: 0.82148 +- 0.00452
+time: 65.4s

@@ -1,0 +1,10 @@
+fold 0: AUC = 0.82241
+fold 1: AUC = 0.81996
+fold 2: AUC = 0.82973
+fold 3: AUC = 0.81661
+fold 4: AUC = 0.81875
+
+OOF AUC: 0.82148  (fold std: 0.00452)
+total time: 65.4s
+no feature_importances_: 'HistGradientBoostingClassifier' object has no attribute 'feature_importances_'
+done -> results_a.txt

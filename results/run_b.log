@@ -1,0 +1,33 @@
+fold 0: AUC = 0.82902 (trees=417)
+fold 1: AUC = 0.83055 (trees=382)
+fold 2: AUC = 0.83919 (trees=1057)
+fold 3: AUC = 0.83260 (trees=1101)
+fold 4: AUC = 0.83443 (trees=1207)
+
+OOF AUC: 0.82869  (fold std: 0.00353)
+total time: 105.1s
+
+Top 15 features (gain):
+num_feat_16    14403.0
+num_feat_29    14188.0
+num_feat_6     12796.0
+num_feat_11    12174.0
+num_feat_24    12165.0
+num_feat_15    11891.0
+num_feat_3     11872.0
+num_feat_37    11827.0
+cat_channel    11506.0
+num_feat_27    11201.0
+num_feat_32    11148.0
+num_feat_26    10725.0
+num_feat_20    10669.0
+num_feat_31    10475.0
+num_feat_14    10459.0
+
+Bottom 5 (near-zero = noise candidates):
+num_feat_13    4657.9
+num_feat_25    4614.5
+num_feat_23    4609.7
+cat_tier        321.8
+cat_region      244.4
+done -> results_b.txt

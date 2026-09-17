@@ -1,0 +1,5 @@
+pipeline B (LGBM)
+params: {'objective': 'binary', 'metric': 'auc', 'learning_rate': 0.05, 'num_leaves': 63, 'min_data_in_leaf': 40, 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'lambda_l2': 1.0, 'max_bin': 255, 'verbosity': -1, 'seed': 42}
+fold AUCs: [0.82902, 0.83055, 0.83919, 0.8326, 0.83443]
+OOF AUC: 0.82869 +- 0.00353
+time: 105.1s
