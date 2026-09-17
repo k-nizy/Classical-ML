@@ -1,0 +1,4 @@
+HGB : 0.82148
+LGBM: 0.82869
+corr of OOF errors: 0.9174
+best blend: 0.61*LGBM + 0.39*HGB -> AUC 0.83275
