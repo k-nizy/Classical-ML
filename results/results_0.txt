@@ -1,0 +1,7 @@
+=== Pipeline 0: linear baselines (5-fold stratified CV, seed 42) ===
+DummyClassifier (majority): accuracy = 0.7379  <- the accuracy trap
+LogisticRegression:         AUC      = 0.65168
+LogisticRegression:         accuracy = 0.7397  (at 0.5 threshold, imbalanced)
+Interpretation: LR barely beats the constant predictor on accuracy,
+but AUC exposes its ranking ability; tuned trees dominate on AUC.
+time: 1.3s
