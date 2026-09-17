@@ -1,0 +1,21 @@
+lgbm_c20_s42: OOF 0.84896 (fold std 0.0064, 141s)
+xgb_d6_s42: OOF 0.84077 (fold std 0.0045, 164s)
+xgb_d6_s43: OOF 0.84119 (fold std 0.0064, 172s)
+hgb_s42: OOF 0.83608 (fold std 0.0051, 93s)
+  single lgbm_c20_s42: 0.84896
+  single lgbm_c10_s42: 0.84885
+  single lgbm_c10_s43: 0.84647
+  single xgb_d6_s43: 0.84119
+  single xgb_d6_s42: 0.84077
+  single hgb_s42: 0.83608
+
+selected blend: pair lgbm_c10_s43+lgbm_c20_s42 w=0.51
+  OOF AUC = 0.85310
+checks passed: blend
+checks passed: lgbm_best
+submission format validated against sample_submission
+Traceback (most recent call last):
+  File "D:\Classical-ML\src\final_ensemble.py", line 185, in <module>
+    log(f'total: {time.time()-t0_all:.0f}s' if (t0_all := None) is None else '')
+                  ~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'

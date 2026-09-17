@@ -1,0 +1,10 @@
+all model jobs already done - skipping to blend
+  single lgbm_c20_s42: 0.84896
+  single lgbm_c10_s42: 0.84885
+  single lgbm_c10_s43: 0.84647
+  single xgb_d6_s43: 0.84119
+  single xgb_d6_s42: 0.84077
+  single hgb_s42: 0.83608
+
+selected blend: pair lgbm_c10_s43+lgbm_c20_s42 w=0.51
+  OOF AUC = 0.85310

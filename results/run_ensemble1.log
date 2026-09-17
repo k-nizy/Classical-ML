@@ -1,0 +1,2 @@
+lgbm_c10_s42: OOF 0.84885 (fold std 0.0052, 267s)
+lgbm_c10_s43: OOF 0.84647 (fold std 0.0072, 274s)
