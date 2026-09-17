@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Large numpy artifacts (regenerable by running src/final_model.py)
+*.npy
+
+# Kaggle competition data (do not redistribute)
+data/train.csv
+data/test.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
