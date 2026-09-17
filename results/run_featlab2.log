@@ -1,0 +1,10 @@
+{'variant': 'ablation', 'oof_auc': 0.8424, 'n_features': 65, 'secs': 107}
+=== Feature lab (OOF LGBM AUC, cfg10 params, 5-fold seed 42) ===
+          oof_auc  delta_vs_base  n_features  secs
+variant                                           
+base      0.83215        0.00000          37    71
+rowstats  0.83113       -0.00102          41    91
+interact  0.84425        0.01210          67   132
+combo     0.83461        0.00246          38    94
+full      0.84198        0.00983          72   135
+ablation  0.84240        0.01025          65   107

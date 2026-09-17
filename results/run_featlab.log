@@ -1,0 +1,13 @@
+{'variant': 'base', 'oof_auc': 0.83215, 'n_features': 37, 'secs': 71}
+{'variant': 'rowstats', 'oof_auc': 0.83113, 'n_features': 41, 'secs': 91}
+{'variant': 'interact', 'oof_auc': 0.84425, 'n_features': 67, 'secs': 132}
+{'variant': 'combo', 'oof_auc': 0.83461, 'n_features': 38, 'secs': 94}
+{'variant': 'full', 'oof_auc': 0.84198, 'n_features': 72, 'secs': 135}
+Traceback (most recent call last):
+  File "D:\Classical-ML\src\lab_features.py", line 62, in <module>
+    X, _ = build_features(train, test, v)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Classical-ML\src\features.py", line 30, in build_features
+    assert variant in ('base', 'rowstats', 'interact', 'combo', 'full')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

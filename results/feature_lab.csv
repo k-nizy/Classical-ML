@@ -1,0 +1,17 @@
+variant,oof_auc,n_features,secs
+base,0.83215,37,71
+base,0.83215,37,71
+rowstats,0.83113,41,91
+base,0.83215,37,71
+rowstats,0.83113,41,91
+interact,0.84425,67,132
+base,0.83215,37,71
+rowstats,0.83113,41,91
+interact,0.84425,67,132
+combo,0.83461,38,94
+base,0.83215,37,71
+rowstats,0.83113,41,91
+interact,0.84425,67,132
+combo,0.83461,38,94
+full,0.84198,72,135
+ablation,0.8424,65,107
