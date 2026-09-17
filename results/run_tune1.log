@@ -1,0 +1,21 @@
+cfg 0: AUC 0.82468  {'num_leaves': 127, 'min_data_in_leaf': 80, 'feature_fraction': 0.9753571532049581, 'bagging_fraction': 0.8659969709057025, 'bagging_freq': 1, 'lambda_l1': 0.24810409748678097, 'lambda_l2': 0.004207988669606634, 'max_bin': 511}
+cfg 1: AUC 0.82253  {'num_leaves': 127, 'min_data_in_leaf': 40, 'feature_fraction': 0.7296244459829335, 'bagging_fraction': 0.6668543055695109, 'bagging_freq': 1, 'lambda_l1': 0.003727925903376984, 'lambda_l2': 0.4013783023846251, 'max_bin': 127}
+cfg 2: AUC 0.80591  {'num_leaves': 63, 'min_data_in_leaf': 80, 'feature_fraction': 0.9692763545078751, 'bagging_fraction': 0.5003893829205072, 'bagging_freq': 1, 'lambda_l1': 9.307782732027226, 'lambda_l2': 0.29507066707905305, 'max_bin': 255}
+cfg 3: AUC 0.80960  {'num_leaves': 63, 'min_data_in_leaf': 150, 'feature_fraction': 0.7159725093210578, 'bagging_fraction': 0.645614570099021, 'bagging_freq': 1, 'lambda_l1': 0.2801635158716258, 'lambda_l2': 0.003613894271216526, 'max_bin': 511}
+cfg 4: AUC 0.81896  {'num_leaves': 63, 'min_data_in_leaf': 40, 'feature_fraction': 0.6912309956335814, 'bagging_fraction': 0.9916154429033941, 'bagging_freq': 1, 'lambda_l1': 0.07362945281639215, 'lambda_l2': 2.7527173929429387, 'max_bin': 511}
+cfg 5: AUC 0.81730  {'num_leaves': 31, 'min_data_in_leaf': 10, 'feature_fraction': 0.5325257964926398, 'bagging_fraction': 0.9744427686266666, 'bagging_freq': 1, 'lambda_l1': 7.286653737491036, 'lambda_l2': 1.7123375973163968, 'max_bin': 127}
+cfg 6: AUC 0.80846  {'num_leaves': 63, 'min_data_in_leaf': 150, 'feature_fraction': 0.6154469128110744, 'bagging_fraction': 0.6205127330130058, 'bagging_freq': 1, 'lambda_l1': 0.5408216580718491, 'lambda_l2': 0.27541439213320285, 'max_bin': 511}
+cfg 7: AUC 0.82587  {'num_leaves': 127, 'min_data_in_leaf': 10, 'feature_fraction': 0.6293899908000085, 'bagging_fraction': 0.831261142176991, 'bagging_freq': 1, 'lambda_l1': 0.017654048052495066, 'lambda_l2': 0.12030178871154662, 'max_bin': 255}
+cfg 8: AUC 0.81778  {'num_leaves': 255, 'min_data_in_leaf': 150, 'feature_fraction': 0.9847923138822793, 'bagging_fraction': 0.8875664116805573, 'bagging_freq': 1, 'lambda_l1': 5.7279044707996185, 'lambda_l2': 3.7958531426706386, 'max_bin': 255}
+cfg 9: AUC 0.81059  {'num_leaves': 127, 'min_data_in_leaf': 80, 'feature_fraction': 0.522613644455269, 'bagging_fraction': 0.6626651653816322, 'bagging_freq': 1, 'lambda_l1': 0.03586816498627548, 'lambda_l2': 0.012172958098369963, 'max_bin': 127}
+cfg 10: AUC 0.82789  {'num_leaves': 255, 'min_data_in_leaf': 20, 'feature_fraction': 0.982627653632069, 'bagging_fraction': 0.8035171238433423, 'bagging_freq': 1, 'lambda_l1': 0.012705645329288707, 'lambda_l2': 0.01531418971165477, 'max_bin': 127}
+cfg 11: AUC 0.82177  {'num_leaves': 31, 'min_data_in_leaf': 10, 'feature_fraction': 0.9934434683002586, 'bagging_fraction': 0.8861223846483287, 'bagging_freq': 1, 'lambda_l1': 0.006235377135673155, 'lambda_l2': 0.0010521761868451127, 'max_bin': 511}
+time budget reached - rerun script to resume
+
+=== TOP 5 CONFIGS ===
+    cfg_id  done      auc      std  secs  num_leaves  min_data_in_leaf  feature_fraction  bagging_fraction  bagging_freq  lambda_l1  lambda_l2  max_bin
+76      10     1  0.82789  0.00157    73         255                20           0.98263           0.80352             1    0.01271    0.01531      127
+65      10     1  0.82789  0.00157    73         255                20           0.98263           0.80352             1    0.01271    0.01531      127
+35       7     1  0.82587  0.00377    50         127                10           0.62939           0.83126             1    0.01765    0.12030      255
+43       7     1  0.82587  0.00377    50         127                10           0.62939           0.83126             1    0.01765    0.12030      255
+52       7     1  0.82587  0.00377    50         127                10           0.62939           0.83126             1    0.01765    0.12030      255
