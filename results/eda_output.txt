@@ -1,0 +1,96 @@
+=== NUMERIC SUMMARY (train) ===
+                mean      std     min      max
+num_feat_1    51.231    7.434  18.000   90.000
+num_feat_2   263.287   48.501   0.000  500.000
+num_feat_3    -0.689    4.615 -22.155   20.366
+num_feat_4     0.005    1.002  -3.846    4.015
+num_feat_5     1.271   10.676 -50.000   49.048
+num_feat_6     0.013    1.942  -8.991    8.979
+num_feat_7     0.006    0.996  -3.682    3.993
+num_feat_8     0.013    1.942  -8.991    8.979
+num_feat_9   486.722  121.208  10.289  945.395
+num_feat_10   -0.017    0.998  -4.025    4.207
+num_feat_11   -0.028    1.991  -9.688    8.725
+num_feat_12   -0.059    4.028 -19.447   17.198
+num_feat_13    0.004    0.999  -3.995    4.277
+num_feat_14   -0.179    1.975  -8.567    8.038
+num_feat_15   -0.180    2.070  -9.189    9.023
+num_feat_16   -0.012    2.180  -9.362   10.724
+num_feat_17    0.003    0.999  -3.627    3.781
+num_feat_18   -0.028    1.991  -9.688    8.725
+num_feat_19   -0.004    1.000  -4.094    3.806
+num_feat_20    0.229    2.056  -8.932    8.903
+num_feat_21    0.003    1.000  -3.665    4.329
+num_feat_22    0.183    2.057  -8.219   10.408
+num_feat_23    0.004    1.004  -4.079    4.014
+num_feat_24   -0.076    2.053  -9.153    8.875
+num_feat_25   -0.001    0.992  -4.198    4.579
+num_feat_26   -0.260    2.005 -10.954    7.683
+num_feat_27   -0.254    4.004 -17.214   18.400
+num_feat_28    0.004    0.994  -3.694    3.687
+num_feat_29    0.070    1.858  -8.857   10.034
+num_feat_30   -0.066    2.073  -8.753    9.567
+num_feat_31   -0.493    4.475 -20.337   20.954
+num_feat_32    0.094    2.109  -9.182    9.700
+num_feat_33   -0.013    0.993  -4.019    3.894
+num_feat_34   -0.059    4.028 -19.447   17.198
+num_feat_35   -0.013    1.000  -4.096    3.954
+num_feat_36    0.003    0.999  -4.185    4.162
+num_feat_37    0.393    3.546 -21.726   19.114
+
+=== TEST vs TRAIN NUMERIC DISTRIBUTIONS (mean/std) ===
+num_feat_1     train:    51.231±   7.434   test:    51.214±   7.475
+num_feat_2     train:   263.287±  48.501   test:   263.320±  48.385
+num_feat_3     train:    -0.689±   4.615   test:    -0.677±   4.622
+num_feat_4     train:     0.005±   1.002   test:     0.003±   1.003
+num_feat_5     train:     1.271±  10.676   test:     1.153±  10.740
+num_feat_6     train:     0.013±   1.942   test:     0.026±   1.958
+num_feat_7     train:     0.006±   0.996   test:     0.006±   1.001
+num_feat_8     train:     0.013±   1.942   test:     0.026±   1.958
+num_feat_9     train:   486.722± 121.208   test:   486.878± 122.334
+num_feat_10    train:    -0.017±   0.998   test:    -0.002±   1.005
+num_feat_11    train:    -0.028±   1.991   test:    -0.029±   1.997
+num_feat_12    train:    -0.059±   4.028   test:    -0.099±   4.011
+num_feat_13    train:     0.004±   0.999   test:    -0.012±   0.998
+num_feat_14    train:    -0.179±   1.975   test:    -0.194±   1.975
+num_feat_15    train:    -0.180±   2.070   test:    -0.184±   2.064
+num_feat_16    train:    -0.012±   2.180   test:    -0.032±   2.174
+num_feat_17    train:     0.003±   0.999   test:    -0.002±   0.990
+num_feat_18    train:    -0.028±   1.991   test:    -0.029±   1.997
+num_feat_19    train:    -0.004±   1.000   test:    -0.015±   0.994
+num_feat_20    train:     0.229±   2.056   test:     0.254±   2.046
+num_feat_21    train:     0.003±   1.000   test:     0.012±   0.996
+num_feat_22    train:     0.183±   2.057   test:     0.142±   2.056
+num_feat_23    train:     0.004±   1.004   test:    -0.017±   1.007
+num_feat_24    train:    -0.076±   2.053   test:    -0.074±   2.049
+num_feat_25    train:    -0.001±   0.992   test:    -0.006±   1.006
+num_feat_26    train:    -0.260±   2.005   test:    -0.272±   2.005
+num_feat_27    train:    -0.254±   4.004   test:    -0.229±   3.988
+num_feat_28    train:     0.004±   0.994   test:     0.008±   0.995
+num_feat_29    train:     0.070±   1.858   test:     0.071±   1.861
+num_feat_30    train:    -0.066±   2.073   test:    -0.068±   2.054
+num_feat_31    train:    -0.493±   4.475   test:    -0.514±   4.511
+num_feat_32    train:     0.094±   2.109   test:     0.100±   2.099
+num_feat_33    train:    -0.013±   0.993   test:     0.009±   0.995
+num_feat_34    train:    -0.059±   4.028   test:    -0.099±   4.011
+num_feat_35    train:    -0.013±   1.000   test:    -0.008±   1.000
+num_feat_36    train:     0.003±   0.999   test:    -0.004±   0.997
+num_feat_37    train:     0.393±   3.546   test:     0.369±   3.548
+
+=== CAT VALUE DISTRIBUTION train vs test ===
+cat_region
+  train: {'east': 0.239, 'south': 0.238, 'north': 0.237, 'west': 0.236, nan: 0.05}
+  test : {'north': 0.242, 'west': 0.239, 'east': 0.238, 'south': 0.232, nan: 0.05}
+cat_channel
+  train: {'A': 0.352, 'C': 0.346, 'B': 0.302}
+  test : {'C': 0.348, 'A': 0.347, 'B': 0.305}
+cat_tier
+  train: {'mid': 0.253, 'high': 0.25, 'premium': 0.249, 'low': 0.248}
+  test : {'low': 0.252, 'premium': 0.252, 'high': 0.25, 'mid': 0.246}
+
+=== ID FORMAT CHECK ===
+train id sample: ['row_018856', 'row_006719']
+test id sample: ['row_007104', 'row_006043']
+id overlap train/test: 0
+
+=== CONSTANT / NEAR-CONSTANT NUMERIC FEATURES ===
