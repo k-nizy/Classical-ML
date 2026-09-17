@@ -1,0 +1,19 @@
+PASS: oof blend AUC matches results_final (0.84345)
+PASS: blend: 20000 rows
+PASS: blend: all probs in (0,1)
+PASS: blend: no NaN
+PASS: blend: no all-identical values
+PASS: lgbm: 20000 rows
+PASS: lgbm: all probs in (0,1)
+PASS: lgbm: no NaN
+PASS: lgbm: no all-identical values
+
+format matches sample_submission: True | sample ids match order: True
+
+submission_blend.csv head:
+        id   target
+row_007104 0.139768
+row_006043 0.009213
+row_007861 0.013441
+
+mean pred blend: 0.1641 | mean pred lgbm: 0.1583
