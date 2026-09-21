@@ -13,3 +13,12 @@ data/test.csv
 # OS / editor
 .DS_Store
 Thumbs.db
+
+# Secrets and wandb local state (never commit)
+.env
+wandb/
+results/wandb/
+submissions/wandb/
+
+# Submission ZIP contains competition data - never redistribute via git
+*.zip
