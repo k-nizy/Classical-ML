@@ -8,7 +8,7 @@ Usage: python tools/build_notebook.py
 import nbformat as nbf
 
 NAME = "Kevin Nizeyimana"
-KAGGLE = "k-nizy"
+KAGGLE = 'Kevin Nizeyimana'
 COMPETITION = "https://www.kaggle.com/competitions/sept-2026-trimester-formative-1-part-2-classification"
 WANDB_URL = "https://wandb.ai/nizykevin98-qeva/formative1-part2-classification"
 
@@ -28,6 +28,8 @@ md(f"""# Formative 1, Part 2 — Classical ML Classification Challenge
 **Final Kaggle leaderboard submissions** (generated and validated in Section 7):
 1. `submissions/submission_blend.csv` — primary: OOF-optimal blend, OOF ROC-AUC **0.8531**
 2. `submissions/submission_lgbm.csv` — backup: best single 10-fold LightGBM, OOF ROC-AUC **0.8490**
+
+Best public leaderboard score: **0.86141**
 
 ---
 

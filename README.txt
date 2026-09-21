@@ -2,13 +2,15 @@ Formative 1 Part 2: Classification
 ==================================
 
 Name:            Kevin Nizeyimana
-Kaggle username: k-nizy
+Kaggle username: Kevin Nizeyimana
 W&B project:     https://wandb.ai/nizykevin98-qeva/formative1-part2-classification
 
 Final Kaggle leaderboard submissions
 ------------------------------------
 1. submission_blend.csv - OOF-optimal blend (lgbm_c10_s43 + lgbm_c20_s42, w=0.51), OOF ROC-AUC 0.85310
 2. submission_lgbm.csv  - best single 10-fold model (lgbm_c20_s42), OOF ROC-AUC 0.84896
+
+Best public leaderboard score: 0.86141
 
 How to run
 ----------
