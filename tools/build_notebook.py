@@ -29,7 +29,7 @@ md(f"""# Formative 1, Part 2 — Classical ML Classification Challenge
 1. `submissions/submission_blend.csv` — primary: OOF-optimal blend, OOF ROC-AUC **0.8531**
 2. `submissions/submission_lgbm.csv` — backup: best single 10-fold LightGBM, OOF ROC-AUC **0.8490**
 
-Best public leaderboard score: **0.86141**
+Leaderboard: public **0.86299** / private **0.86141** (submission_blend.csv)
 
 ---
 
